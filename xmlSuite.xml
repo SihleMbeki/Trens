@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Keyword Planner Volume">
+	<listeners>
+		<listener class-name="Utilities.Listener" />
+	</listeners>
+	<test name="All">
+		<parameter name="testNG" value="XML test" />
+		<classes>
+			<class name="TestNG.testautomation.testing.AppTest"></class>
+		</classes>
+	</test>
+</suite>
