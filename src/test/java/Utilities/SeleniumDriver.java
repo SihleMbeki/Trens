@@ -37,7 +37,6 @@ public class SeleniumDriver {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized");
-			options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 			// options.setExperimentalOption("debuggerAddress","localhost:9222");
 			driver = new ChromeDriver(options);
 			driver.manage().timeouts().implicitlyWait(tenSeconds);
@@ -58,7 +57,43 @@ public class SeleniumDriver {
 		try {
 			Duration threeseconds = Duration.ofMillis(20000);
 			WebDriverWait wait = new WebDriverWait(driver, threeseconds);
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(cssXpath)));
+		} catch (Exception e) {
+			error = e.getMessage();
+			Base.log.error(error);
+			System.out.println(error);
+			Assert.fail();
+		}
+	}
+	
+	public void waitForElementXpath(String cssXpath) {
+		try {
+			Duration threeseconds = Duration.ofMillis(20000);
+			WebDriverWait wait = new WebDriverWait(driver, threeseconds);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(cssXpath)));
+		} catch (Exception e) {
+			error = e.getMessage();
+			Base.log.error(error);
+			System.out.println(error);
+			Assert.fail();
+		}
+	}
+	public void waitForElementVisible(WebElement element) {
+		try {
+			Duration threeseconds = Duration.ofMillis(20000);
+			WebDriverWait wait = new WebDriverWait(driver, threeseconds);
+			wait.until(ExpectedConditions.visibilityOf(element));
+		} catch (Exception e) {
+			error = e.getMessage();
+			Base.log.error(error);
+			Assert.fail();
+		}
+	}
+	public void waitForElementVisible(String element) {
+		try {
+			Duration threeseconds = Duration.ofMillis(20000);
+			WebDriverWait wait = new WebDriverWait(driver, threeseconds);
+			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector(element)));
 		} catch (Exception e) {
 			error = e.getMessage();
 			Base.log.error(error);
@@ -222,7 +257,8 @@ public class SeleniumDriver {
 			return screenshotFile;
 		} catch (Exception e) {
 			error = e.getMessage();
-			Base.log.error(error);
+			System.out.println(e.getMessage());
+			Base.log.error("Screnshot "+error);
 			Assert.fail();
 			return null;
 		}

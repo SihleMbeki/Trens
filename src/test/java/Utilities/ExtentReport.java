@@ -10,6 +10,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+
 public class ExtentReport {
 	public static ExtentHtmlReporter htmlReporter;
 	private static ExtentReports reports;
@@ -66,6 +67,10 @@ public class ExtentReport {
 
 	public static String getDirectory() {
 		return foldername;
+	}
+	
+	public static String getDownloadDirectory() {
+		return property.getProperty("downloads");
 	}
 
 }

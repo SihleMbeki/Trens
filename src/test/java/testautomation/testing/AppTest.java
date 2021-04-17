@@ -8,32 +8,27 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
-import PageObjects.Login;
+import PageObjects.Explore;
+import PageObjects.HomePage;
 
 public class AppTest extends Base {
 
-	@Test
-	@Parameters("testNG")
-	public void test(String test2) throws IOException {
-		
-		//WebDriverManager.chromedriver().driverVersion("81.0.4044.138").setup();
-		if (System.getenv("jenkins") != null) {
-			String test = System.getenv("jenkins");
-			System.out.println(test);
-		}
-		driver.getDriver().get("https://accounts.google.com/signin/v2/identifier?service=adwords&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
-		Login login=new Login(driver.getDriver());
-		login.submitUsername("sihle.matanzima@gmail.com");
-		
-		getTest().log(Status.PASS, test2);
-		getTest().pass("String",MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build());
-		writer.write("Column1,Column2");
-		System.out.println("Parameter : " + test2);
-		log.debug("This is a debug log");
-		log.info("This is a info log");
-		log.error("This is a error log");
-		
-		assert Boolean.TRUE;
+	@Test(priority=1)
+	@Parameters("Keyword")
+	public void test(String keyword) throws IOException {
+		String[] files={"relatedEntities.csv","relatedQueries.csv"};
+		driver.getDriver().get("https://trends.google.com/trends/?geo=US");
+		HomePage login=new HomePage(driver,writer);
+		login.SubmitSearch(keyword);
+		login.extractSuggestions();
+		driver.pressEnter();
+		getTest().log(Status.PASS, keyword);
+		Explore explore=new Explore(driver);
+		explore.clearFiles(files);
+		explore.selectCountry("South Africa");
+		explore.selectDays();
+		explore.export();
+		explore.copyFiles(files);
 	}
-
+	
 }

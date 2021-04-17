@@ -1,13 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Keyword Planner Volume">
 	<listeners>
 		<listener class-name="Utilities.Listener" />
 	</listeners>
-	<test name="All">
-		<parameter name="testNG" value="XML test" />
+	 <test name="search">
+		<parameter name="Keyword" value="Money" />
 		<classes>
-			<class name="TestNG.testautomation.testing.AppTest"></class>
+			<class name="testautomation.testing.AppTest"></class>
 		</classes>
 	</test>
+	
+	<!--  <test name="export">
+		<classes>
+			<class name="testautomation.testing.Export"></class>
+		</classes>
+	</test>-->
 </suite>

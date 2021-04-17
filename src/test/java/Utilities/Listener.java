@@ -41,7 +41,7 @@ public class Listener extends Base implements ITestListener {
 		}
 
 		try {
-			test.pass("String", MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build());
+			test.pass("Failed", MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build());
 		} catch (IOException e) {
 			log.debug("Failed to take screenshot");
 			e.printStackTrace();
@@ -71,15 +71,19 @@ public class Listener extends Base implements ITestListener {
 		log.info("Test Success");
 		getTest().log(Status.PASS, "TEST SUCCESS");
 		log.debug("Test Passed");
+		
+		
+		  try { 
+			 test.pass("Passed",
+		  MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build
+		  ()); } catch (Exception e) {
+			  log.error("Failed to take screenshot");
+			  log.error(e.getMessage());
+		  e.printStackTrace(); }
+		
 		if (getDriver().getDriver() != null)
 			 getDriver().getDriver().close();
 			log.info("closed the driver");
-		
-		  try { 
-			 test.pass("String",
-		  MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build
-		  ()); } catch (IOException e) { log.debug("Failed to take screenshot");
-		  e.printStackTrace(); }
 		
 	}
 

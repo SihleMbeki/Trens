@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Keyword Planner Volume]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.Listener"/>
+  </listeners>
+  <test thread-count="5" name="search(failed)" verbose="0">
+    <parameter name="Keyword" value="Money"/>
+    <classes>
+      <class name="testautomation.testing.AppTest">
+        <methods>
+          <include name="export"/>
+          <include name="suiteSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testautomation.testing.AppTest -->
+    </classes>
+  </test> <!-- search(failed) -->
+</suite> <!-- Failed suite [Keyword Planner Volume] -->

@@ -1,0 +1,425 @@
+# Created at 2021-04-17T02:56:06.179
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-04-17T02:56:30.325
+Unexpected IOException with stream: [Base] [ERROR] Expected condition failed: waiting for presence of element located by: By.xpath: //title[contains(text(),'- Explore - Google Trends')] (tried for 20 second(s) with 500 milliseconds interval)
+
+
+# Created at 2021-04-17T02:56:30.327
+Unexpected IOException with stream: Expected condition failed: waiting for presence of element located by: By.xpath: //title[contains(text(),'- Explore - Google Trends')] (tried for 20 second(s) with 500 milliseconds interval)
+
+
+# Created at 2021-04-17T02:56:31.023
+Unexpected IOException: 8,1,testautomation.testing.AppTest,test(testautomation.testing.AppTest),null,null,null,null,AppTest.test:26 null,java.lang.AssertionError: null\000A\0009at testautomation.testing.AppTest.test(AppTest.java:26)\000A
+
+
+# Created at 2021-04-17T02:56:31.132
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "index.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.136
+Unexpected IOException with stream: 34870 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "index.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.140
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.142
+Unexpected IOException with stream: 34877 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.148
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.149
+Unexpected IOException with stream: 34885 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.154
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.155
+Unexpected IOException with stream: 34890 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.157
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+
+
+# Created at 2021-04-17T02:56:31.159
+Unexpected IOException with stream: 34894 [main] DEBUG freemarker.cache  - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+
+
+# Created at 2021-04-17T02:56:31.690
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "head.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.692
+Unexpected IOException with stream: 35427 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "head.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.694
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("head_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.696
+Unexpected IOException with stream: 35431 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.698
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.699
+Unexpected IOException with stream: 35435 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.703
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("head.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.705
+Unexpected IOException with stream: 35439 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.706
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+
+
+# Created at 2021-04-17T02:56:31.708
+Unexpected IOException with stream: 35443 [main] DEBUG freemarker.cache  - Loading template for "head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+
+
+# Created at 2021-04-17T02:56:31.714
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "nav.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.716
+Unexpected IOException with stream: 35451 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "nav.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.719
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("nav_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.721
+Unexpected IOException with stream: 35456 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.723
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.725
+Unexpected IOException with stream: 35460 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.728
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("nav.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.729
+Unexpected IOException with stream: 35465 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.730
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "nav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+
+
+# Created at 2021-04-17T02:56:31.732
+Unexpected IOException with stream: 35468 [main] DEBUG freemarker.cache  - Loading template for "nav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+
+
+# Created at 2021-04-17T02:56:31.754
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "test-view/test-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.756
+Unexpected IOException with stream: 35491 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.759
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.761
+Unexpected IOException with stream: 35495 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.764
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.766
+Unexpected IOException with stream: 35501 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.769
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.770
+Unexpected IOException with stream: 35505 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.772
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "test-view/test-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.773
+Unexpected IOException with stream: 35509 [main] DEBUG freemarker.cache  - Loading template for "test-view/test-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.829
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.831
+Unexpected IOException with stream: 35566 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.833
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.835
+Unexpected IOException with stream: 35570 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.838
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.839
+Unexpected IOException with stream: 35575 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.842
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.844
+Unexpected IOException with stream: 35578 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.846
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+
+
+# Created at 2021-04-17T02:56:31.848
+Unexpected IOException with stream: 35582 [main] DEBUG freemarker.cache  - Loading template for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+
+
+# Created at 2021-04-17T02:56:31.879
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "test-view/standard.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.881
+Unexpected IOException with stream: 35615 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/standard.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.885
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/standard_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.887
+Unexpected IOException with stream: 35621 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.889
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.891
+Unexpected IOException with stream: 35627 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.893
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.895
+Unexpected IOException with stream: 35630 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.897
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "test-view/standard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+
+
+# Created at 2021-04-17T02:56:31.898
+Unexpected IOException with stream: 35634 [main] DEBUG freemarker.cache  - Loading template for "test-view/standard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+
+
+# Created at 2021-04-17T02:56:31.938
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "category-view/category-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.940
+Unexpected IOException with stream: 35675 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "category-view/category-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.942
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("category-view/category-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.944
+Unexpected IOException with stream: 35679 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.946
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.948
+Unexpected IOException with stream: 35683 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.951
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.952
+Unexpected IOException with stream: 35688 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.954
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "category-view/category-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.957
+Unexpected IOException with stream: 35691 [main] DEBUG freemarker.cache  - Loading template for "category-view/category-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.965
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.967
+Unexpected IOException with stream: 35702 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.969
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("exception-view/exception-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.970
+Unexpected IOException with stream: 35706 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.973
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.975
+Unexpected IOException with stream: 35710 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.977
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.979
+Unexpected IOException with stream: 35714 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:31.980
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Loading template for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.981
+Unexpected IOException with stream: 35717 [main] DEBUG freemarker.cache  - Loading template for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+
+
+# Created at 2021-04-17T02:56:31.989
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.990
+Unexpected IOException with stream: 35726 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:31.993
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.995
+Unexpected IOException with stream: 35730 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.997
+Unexpected IOException with stream: 17/04/2021 02:56:31 DEBUG cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:31.999
+Unexpected IOException with stream: 35734 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:32.002
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:32.003
+Unexpected IOException with stream: 35738 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:32.005
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - Loading template for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+
+
+# Created at 2021-04-17T02:56:32.006
+Unexpected IOException with stream: 35742 [main] DEBUG freemarker.cache  - Loading template for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+
+
+# Created at 2021-04-17T02:56:32.022
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:32.023
+Unexpected IOException with stream: 35759 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2021-04-17T02:56:32.026
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:32.028
+Unexpected IOException with stream: 35763 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en_US.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:32.030
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:32.032
+Unexpected IOException with stream: 35767 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+
+
+# Created at 2021-04-17T02:56:32.035
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:32.037
+Unexpected IOException with stream: 35771 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+
+
+# Created at 2021-04-17T02:56:32.038
+Unexpected IOException with stream: 17/04/2021 02:56:32 DEBUG cache - Loading template for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+
+
+# Created at 2021-04-17T02:56:32.040
+Unexpected IOException with stream: 35775 [main] DEBUG freemarker.cache  - Loading template for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sihle/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+
+
+# Created at 2021-04-17T02:56:32.257
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
