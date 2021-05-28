@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 108.682 s <<< FAILURE! - in TestSuite
-export(testautomation.testing.AppTest)  Time elapsed: 22.638 s  <<< FAILURE!
-java.lang.AssertionError: null
-	at testautomation.testing.AppTest.export(AppTest.java:36)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.691 s - in TestSuite

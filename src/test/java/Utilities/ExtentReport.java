@@ -11,6 +11,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
+
 public class ExtentReport {
 	public static ExtentHtmlReporter htmlReporter;
 	private static ExtentReports reports;

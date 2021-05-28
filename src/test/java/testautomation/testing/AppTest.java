@@ -20,15 +20,15 @@ public class AppTest extends Base {
 		driver.getDriver().get("https://trends.google.com/trends/?geo=US");
 		HomePage login=new HomePage(driver,writer);
 		login.SubmitSearch(keyword);
-		login.extractSuggestions();
+		//login.extractSuggestions();
 		driver.pressEnter();
-		getTest().log(Status.PASS, keyword);
-		Explore explore=new Explore(driver);
-		explore.clearFiles(files);
-		explore.selectCountry("South Africa");
-		explore.selectDays();
-		explore.export();
-		explore.copyFiles(files);
+		//getTest().log(Status.PASS, keyword);
+		//Explore explore=new Explore(driver);
+		//explore.clearFiles(files);
+		//explore.selectCountry("South Africa");
+		//explore.selectDays();
+		//explore.export();
+		//explore.copyFiles(files);
 	}
 	
 }

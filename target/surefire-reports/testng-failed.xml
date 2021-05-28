@@ -9,9 +9,9 @@
     <classes>
       <class name="testautomation.testing.AppTest">
         <methods>
-          <include name="export"/>
           <include name="suiteSetup"/>
           <include name="teardown"/>
+          <include name="test" invocation-numbers="0"/>
         </methods>
       </class> <!-- testautomation.testing.AppTest -->
     </classes>
