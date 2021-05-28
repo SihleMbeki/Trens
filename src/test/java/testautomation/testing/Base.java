@@ -5,12 +5,10 @@ import java.io.PrintWriter;
 import java.lang.reflect.Method;
 
 import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.log4testng.Logger;
 
 import com.aventstack.extentreports.ExtentTest;
 
